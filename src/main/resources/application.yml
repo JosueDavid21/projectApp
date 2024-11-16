@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: app-projectApp
+  profiles:
+    active: common,dev,postgres
+server:
+  address: localhost
+  port: 9090

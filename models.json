@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "entity": "Project",
+      "extendsOf": "",
+      "columns": [
+        {
+          "columnName": "name",
+          "variableName": "name",
+          "dataType": "String",
+          "isNotNull": true
+        },
+        {
+          "columnName": "description",
+          "variableName": "description",
+          "dataType": "String"
+        },
+        {
+          "columnName": "status",
+          "variableName": "endDate",
+          "dataType": "String"
+        }
+      ]
+    },
+    {
+      "entity": "Task",
+      "extendsOf": "",
+      "columns": [
+        {
+          "columnName": "name",
+          "variableName": "name",
+          "dataType": "String",
+          "isNotNull": true
+        },
+        {
+          "columnName": "description",
+          "variableName": "description",
+          "dataType": "String"
+        },
+        {
+          "columnName": "startDate",
+          "variableName": "startDate",
+          "dataType": "LocalDate"
+        },
+        {
+          "columnName": "endDate",
+          "variableName": "endDate",
+          "dataType": "LocalDate"
+        },
+        {
+          "columnName": "status",
+          "variableName": "status",
+          "dataType": "String"
+        }
+      ]
+    },
+    {
+      "entity": "Attachment",
+      "extendsOf": "",
+      "columns": [
+        {
+          "columnName": "name",
+          "variableName": "name",
+          "dataType": "String",
+          "isNotNull": true
+        },
+        {
+          "columnName": "path",
+          "variableName": "path",
+          "dataType": "String"
+        },
+        {
+          "columnName": "uploadDate",
+          "variableName": "uploadDate",
+          "dataType": "LocalDate"
+        }
+      ]
+    }
+  ]
+}
